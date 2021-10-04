@@ -1,0 +1,32 @@
+.test-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.test-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn,
+.btn-clean {
+    width:100px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    background: red;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+    padding:10px 0;
+}
+.btn:hover, .btn-clean:hover {
+    background: black;
+    border:white 1px solid;
+}
+.test-input,
+.test-output {
+    width:50%;
+}
